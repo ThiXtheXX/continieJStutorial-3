@@ -5,7 +5,7 @@
 </head>
 <body>
     <main>
-        <div>
+        <div class="oneOf3Blogs">
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, eos?</h2>
             <p class="hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus minima modi placeat voluptatibus, inventore illo voluptate ut porro aliquam totam est vitae labore, quas odit consequuntur, doloremque excepturi aliquid hic?</p>
         </div>
@@ -18,6 +18,38 @@
             <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusantium laudantium necessitatibus. Eligendi distinctio labore modi beatae provident! Quo esse quos quas voluptatibus culpa incidunt rem deserunt fugit reprehenderit obcaecati!</p>
         </div>
     </main>
+    <div class="back-image">
+
+    </div>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        .hidden {
+            display: none;
+        }
+        main {
+            background-image: linear-gradient(blue, green);
+            padding: 2px;
+            border-radius: 5px;
+        }
+        h2 {
+            background-color: rgba(222, 184, 135, 0.945);
+            padding: 3px;
+            border-radius: 6px;
+            margin: 3px;
+            color:rgb(250, 250, 242);
+        }
+        .back-image{
+            background-image: url(./succ.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width:100vw;
+            height: 100vh;  
+        }
+    </style>
 
     <script src="./index1.js"></script>
 </body>
